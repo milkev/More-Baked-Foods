@@ -3,7 +3,7 @@
   "ingredient": {
     "item": "minecraft:carrot"
   },
-  "result": "morebakedfoods:baked_carrot",
+  "result": "morebakedfoods:roasted_carrot",
   "experience": 0.35,
   "cookingtime": 200
 }
