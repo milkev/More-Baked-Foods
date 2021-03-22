@@ -1,2 +1,2 @@
 # More-Baked-Foods
-[https://www.curseforge.com/minecraft/mc-mods/more-baked-foods]()
+[Check us out on Curseforge!](https://www.curseforge.com/minecraft/mc-mods/more-baked-foods)
