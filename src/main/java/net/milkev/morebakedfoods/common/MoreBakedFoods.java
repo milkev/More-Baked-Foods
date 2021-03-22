@@ -12,7 +12,6 @@ public class MoreBakedFoods implements ModInitializer {
 
 
 	public static final String MOD_ID = "morebakedfoods";
-	public static final String MOD_NAME = "More Baked Foods";
 
 	public static final FoodComponent.Builder FOOD_H_5_0_S_4_0_BUILDER = new FoodComponent.Builder().hunger(5).saturationModifier(0.5f);
 	public static final FoodComponent FOOD_H_5_0_S_4_0 = FOOD_H_5_0_S_4_0_BUILDER.build();
