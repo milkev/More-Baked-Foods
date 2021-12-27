@@ -9,7 +9,7 @@ public class RoastedBeetroot extends Item {
     public RoastedBeetroot() {
         super(new Properties()
 
-                .group(ItemGroup.MISC)
+                .group(ItemGroup.FOOD)
                 .food(new Food.Builder()
                         .hunger(4)
                         .saturation(0.375F)

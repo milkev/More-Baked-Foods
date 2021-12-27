@@ -9,7 +9,7 @@ public class FriedEgg extends Item {
     public FriedEgg() {
         super(new Properties()
 
-                .group(ItemGroup.MISC)
+                .group(ItemGroup.FOOD)
                 .food(new Food.Builder()
                         .hunger(3)
                         .saturation(0.625F)

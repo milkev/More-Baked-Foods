@@ -10,7 +10,7 @@ public class RoastedCarrot extends Item {
     public RoastedCarrot() {
         super(new Properties()
 
-                .group(ItemGroup.MISC)
+                .group(ItemGroup.FOOD)
                 .food(new Food.Builder()
                         .hunger(5)
                         .saturation(0.5F)

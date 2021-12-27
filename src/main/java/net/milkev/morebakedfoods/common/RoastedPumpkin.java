@@ -9,7 +9,7 @@ public class RoastedPumpkin extends Item {
     public RoastedPumpkin() {
         super(new Properties()
 
-                .group(ItemGroup.MISC)
+                .group(ItemGroup.FOOD)
                 .food(new Food.Builder()
                         .hunger(6)
                         .saturation(0.25F)
