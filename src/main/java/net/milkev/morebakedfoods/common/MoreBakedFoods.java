@@ -7,7 +7,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
-@Mod("morebakedfoods")
+@Mod(MoreBakedFoods.MOD_ID)
 public class MoreBakedFoods {
 	public static final String MOD_ID = "morebakedfoods";
 
