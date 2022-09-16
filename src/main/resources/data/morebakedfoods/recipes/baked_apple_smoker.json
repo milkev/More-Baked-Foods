@@ -1,7 +1,7 @@
 {
     "type": "minecraft:smoking",
     "ingredient": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:apple"
     },
     "result": "morebakedfoods:baked_apple",
     "experience": 0.35,
