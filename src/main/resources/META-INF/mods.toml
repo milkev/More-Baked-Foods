@@ -22,7 +22,7 @@ credits="Thanks for this mod goes to Milkev and sp4destech for making the Fabric
 authors="RedRoseWarrior1 aka DevMaster1015 for the forge version and Milkev and sp4destech for the fabric version" #optional
 
 description='''
-adds some baked foods'''
+adds some baked foods to vanilla foods '''
 
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.morebakedfoods]] #optional
