@@ -20,6 +20,7 @@ public class RegistryHandler {
     public static final RegistryObject<RoastedBeetroot> ROASTED_BEETROOT = ITEMS.register("roasted_beetroot", RoastedBeetroot::new);
     public static final RegistryObject<RoastedCarrot> ROASTED_CARROT = ITEMS.register("roasted_carrot", RoastedCarrot::new);
     public static final RegistryObject<RoastedPumpkin> ROASTED_PUMPKIN = ITEMS.register("roasted_pumpkin", RoastedPumpkin::new);
+    public static final RegistryObject<BakedApple> BAKED_APPLE = ITEMS.register("baked_apple", BakedApple::new);
 
 }
 
