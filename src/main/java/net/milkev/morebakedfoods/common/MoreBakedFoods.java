@@ -1,5 +1,6 @@
 package net.milkev.morebakedfoods.common;
 
+import net.milkev.morebakedfoods.common.RegistryHandler
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -10,6 +11,8 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 @Mod(MoreBakedFoods.MOD_ID)
 public class MoreBakedFoods {
 	public static final String MOD_ID = "morebakedfoods";
+
+	public static final ItemGroup MOBFTAB = new MoreBakedFoodsTab();
 
 
 	public MoreBakedFoods() {
