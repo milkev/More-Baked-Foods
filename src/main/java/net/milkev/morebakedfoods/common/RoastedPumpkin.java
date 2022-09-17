@@ -4,6 +4,7 @@ import net.minecraft.item.Food;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.milkev.morebakedfoods.common.MoreBakedFoodsTab
+import net.milkev.morebakedfoods.common.MoreBakedFoods
 
 
 public class RoastedPumpkin extends Item {

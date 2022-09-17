@@ -7,6 +7,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+package net.milkev.morebakedfoods.common.MoreBakedFoodsTab;
 
 @Mod(MoreBakedFoods.MOD_ID)
 public class MoreBakedFoods {
