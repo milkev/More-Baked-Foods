@@ -7,11 +7,19 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
+import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder
 
 public class MoreBakedFoods implements ModInitializer {
 
 
 	public static final String MOD_ID = "morebakedfoods";
+
+
+	public static final ItemGroup MBFTG = FabricItemGroupBuilder.create(
+        new Identifier("morebakedfoods", "morebakedfoodgroup"))
+        .icon(() -> new ItemStack(MoreBakedFoods.ROASTED_CARROT))
+        .build();
+
 
 	//roasted carrot
 	public static final FoodComponent.Builder FOOD_H_5_0_S_4_0_BUILDER = new FoodComponent.Builder().hunger(5).saturationModifier(0.5f);
@@ -30,11 +38,11 @@ public class MoreBakedFoods implements ModInitializer {
 	public static final FoodComponent FOOD_H5_S5 = FOOD_H5_S5_BUILDER.build();
 
 	//foods
-	public static final Item ROASTED_CARROT = new Item(new FabricItemSettings().food(FOOD_H_5_0_S_4_0).group(ItemGroup.FOOD));
-	public static final Item ROASTED_BEETROOT = new Item(new FabricItemSettings().food(FOOD_H_4_0_S_3_0).group(ItemGroup.FOOD));
-	public static final Item ROASTED_PUMPKIN = new Item(new FabricItemSettings().food(FOOD_6_0_S_2_0).group(ItemGroup.FOOD));
-	public static final Item FRIED_EGG = new Item(new FabricItemSettings().food(FOOD_H3_S5).group(ItemGroup.FOOD));
-	public static final Item BAKED_APPLE = new Item(new FabricItemSettings().food(FOOD_H5_S5).group(ItemGroup.FOOD));
+	public static final Item ROASTED_CARROT = new Item(new FabricItemSettings().food(FOOD_H_5_0_S_4_0).group(MoreBakedFoods.MBFTG));
+	public static final Item ROASTED_BEETROOT = new Item(new FabricItemSettings().food(FOOD_H_4_0_S_3_0).group(MoreBakedFoods.MBFTG));
+	public static final Item ROASTED_PUMPKIN = new Item(new FabricItemSettings().food(FOOD_6_0_S_2_0).group(MoreBakedFoods.MBFTG));
+	public static final Item FRIED_EGG = new Item(new FabricItemSettings().food(FOOD_H3_S5).group(MoreBakedFoods.MBFTG));
+	public static final Item BAKED_APPLE = new Item(new FabricItemSettings().food(FOOD_H5_S5).group(MoreBakedFoods.MBFTG));
 
 	//ingredients
 

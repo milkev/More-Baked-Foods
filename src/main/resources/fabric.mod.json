@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "morebakedfoods",
   "version": "${version}",
-
   "name": "More Baked Foods",
   "description": "adds some baked foods",
   "authors": [
@@ -25,7 +24,6 @@
   },
   "mixins": [
   ],
-
   "depends": {
     "fabricloader": ">=0.11.3",
     "fabric": "*",
