@@ -9,6 +9,7 @@ import net.minecraft.item.ItemStack;
 import net.milkev.morebakedfoods.common.MoreBakedFoods
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import net.milkev.morebakedfoods.common.MoreBakedFoods
 
 public class MoreBakedFoodsTab extends ItemGroup {
     public MoreBakedFoodsTab() {

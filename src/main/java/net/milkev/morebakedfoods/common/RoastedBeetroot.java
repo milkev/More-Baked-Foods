@@ -7,6 +7,7 @@ import net.milkev.morebakedfoods.common.MoreBakedFoodsTab
 import net.milkev.morebakedfoods.common.MoreBakedFoods
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import net.milkev.morebakedfoods.common.MoreBakedFoods
 
 
 public class RoastedBeetroot extends Item {

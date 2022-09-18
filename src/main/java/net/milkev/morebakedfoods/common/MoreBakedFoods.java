@@ -21,9 +21,7 @@ public class MoreBakedFoods {
 
 
 	public MoreBakedFoods() {
-		LOGGER.debug(MOD_ID);
-		LOGGER.info("Loading The Mod");
-		LOGGER.warn(MOD_ID);
+		LOGGER.info("Loading The Mod" + MOD_ID);
 
 		FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
 
