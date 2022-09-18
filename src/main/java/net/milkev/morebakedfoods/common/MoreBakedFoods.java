@@ -8,9 +8,13 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 package net.milkev.morebakedfoods.common.MoreBakedFoodsTab;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 @Mod(MoreBakedFoods.MOD_ID)
 public class MoreBakedFoods {
+	public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
+	
 	public static final String MOD_ID = "morebakedfoods";
 
 	public static final ItemGroup MOBFTAB = new MoreBakedFoodsTab();
