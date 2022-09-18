@@ -7,12 +7,16 @@ import net.milkev.morebakedfoods.common.RegistryHandler
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.milkev.morebakedfoods.common.MoreBakedFoods
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class MoreBakedFoodsTab extends ItemGroup {
     public MoreBakedFoodsTab() {
-        super("morebackedfoodtab");
+        super("morebakedfoodsitemstab");
     }
 
+    public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
+    
     @Override
     public ItemStack createIcon() {
         return new ItemStack(RegistryHandler.FRIED_EGG.get());
@@ -22,5 +26,6 @@ public class MoreBakedFoodsTab extends ItemGroup {
     public boolean hasSearchBar() {
         return true;
     }
+    LOGGER.info("Loading The Food Tab");
 
 }

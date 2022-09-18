@@ -5,9 +5,12 @@ import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.milkev.morebakedfoods.common.MoreBakedFoodsTab
 import net.milkev.morebakedfoods.common.MoreBakedFoods
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 
 public class RoastedCarrot extends Item {
+    public static final Logger LOGGER = LogManager.getLogger(MOD_ID);
     public RoastedCarrot() {
         super(new Properties()
 
@@ -18,5 +21,7 @@ public class RoastedCarrot extends Item {
                         .build()
                 ));
     }
+
+    LOGGER.info("Loading the Roasted Carrot");
 
 }
