@@ -1,18 +1,17 @@
 package net.milkev.morebakedfoods.common;
 
-import net.minecraft.item.Food;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.Item;
 
 
 public class FriedEgg extends Item {
     public FriedEgg() {
         super(new Properties()
 
-                .group(ItemGroup.FOOD)
-                .food(new Food.Builder()
-                        .hunger(3)
-                        .saturation(0.625F)
+
+                .food(new FoodProperties.Builder()
+                        .nutrition(3)
+                        .saturationMod(0.625F)
                         .build()
                 ));
     }
